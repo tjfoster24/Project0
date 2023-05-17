@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 10px;
+}
+.nav-link {
+    margin: 5px;
+    padding: 5px; 
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    height: 92px;
+    width: 272px;
+}
+#search {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: white;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 10px auto;
+    width: 638px;
+    width: 584;
+    max-width: 584px;
+}
+.button {
+    background-color: white;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: black;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.ad-bar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+.h2-ad {
+    font-size: 16px;
+    color: #333333;
+    margin: 35px;
+}
+.ad-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.left {
+    width: 200px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+.right {
+    width: 350px;
+}
+.ad-btn {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+.btn-con {
+    display: flex;
+    justify-content: flex-end;
+    width: 550px;
+    margin-top: 25px;
+}
